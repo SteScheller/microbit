@@ -1,22 +1,20 @@
-input.onButtonPressed(Button.A, function () {
-    heart.showImage(0)
-})
-input.onButtonPressed(Button.B, function () {
+let heart = images.createImage(`
+. # . # .
+# # # # #
+# # # # #
+. # # # .
+. . # . .
+`)
+let smilie = images.createImage(`
+. . . . .
+. # . # .
+. . . . .
+# . . . #
+. # # # .
+`)
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
     smilie.showImage(0)
 })
-let smilie: Image = null
-let heart: Image = null
-heart = images.createImage(`
-    . # . # .
-    # # # # #
-    # # # # #
-    . # # # .
-    . . # . .
-    `)
-smilie = images.createImage(`
-    . . . . .
-    . # . # .
-    . . . . .
-    # . . . #
-    . # # # .
-    `)
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    heart.showImage(0)
+})
