@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="JP/UDR]!{^pDK76v+@cP">smilie</variable><variable id="qo8g}d8zc[rKd5@LQWID">heart</variable></variables><block type="pxt-on-start" id=";Z.%-|%.3JF*_Q0S}2Ut" x="20" y="20"><statement name="HANDLER"><block type="variables_set" id="sBgvZH;$?w3CX12OV,:H"><field name="VAR" id="qo8g}d8zc[rKd5@LQWID">heart</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="AJ3@w!V)NJXXjb91c-b;"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></value><next><block type="variables_set" id="$e!9oP/hwqH?6*WrDG:J"><field name="VAR" id="JP/UDR]!{^pDK76v+@cP">smilie</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="A^p32^#=C4uD|FLrX|,Y"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></value></block></next></block></statement></block><block type="device_button_event" id="HqWUZuE:O@BHcK4!0Bu." x="498" y="20"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_image_offset" id="Qy-tGcTpLsq83g^:Itjc"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="4=mkqm+V,y9SUXed]:IX"><field name="VAR" id="JP/UDR]!{^pDK76v+@cP">smilie</field></block></value><value name="offset"><shadow type="math_number" id="8|wqhh,d|VzX(^CjKG?a"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="qtVE@gT_B]HOiXJU$Jg." x="943" y="20"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_image_offset" id="h=t?Fa!R|=]^B3WS?~Lc"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="977N$8v3wov@B}$1{!I-"><field name="VAR" id="qo8g}d8zc[rKd5@LQWID">heart</field></block></value><value name="offset"><shadow type="math_number" id="yP._nFBrU%N4h?*cBauX"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
